@@ -2,8 +2,8 @@ import logo from "../images/logo_v1.png"
 const Header = () => {
   return (
     <header>
-      <span className="flex flex-col items-center bg-success py-2">
-        <h4>"L'entreprise peut être source de croissance humaine".</h4>
+      <span className="flex flex-col items-center py-2 bg-yellow-color">
+        <h4 className="text-2xl">"L'entreprise peut être source de croissance humaine".</h4>
         <p>Les entreprises humanistes, Jacques Lecomte</p>
       </span>
       
