@@ -5,7 +5,7 @@ const Hero = () => {
 
     <section>
         <div className="hero flex flex-col">
-            <img className="hero-img"src={heroImg} alt="logo"/>
+            <img className="hero-img w-screen"src={heroImg} alt="logo"/>
             <h2 className="hero-title__center">Le bonheur au travail, vous avez tout à y gagner... et votre entreprise aussi !</h2>
         </div>
         <div>
