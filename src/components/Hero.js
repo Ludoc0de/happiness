@@ -5,20 +5,21 @@ const Hero = () => {
 
     <section>
         <div className="hero flex flex-col">
-            <img className="hero-img w-screen"src={heroImg} alt="logo"/>
-            <h2 className="hero-title__center">Le bonheur au travail, vous avez tout à y gagner... et votre entreprise aussi !</h2>
+            <img className="hero-img w-screen rounded-md"src={heroImg} alt="logo"/>
+            <h2 className="hero-title__center text-2xl my-12">Le bonheur au travail, vous avez tout à y gagner... <br />Et votre entreprise aussi !</h2>
         </div>
-        <div>
-            <img className="hero-pic" src={heroPic} alt="logo"/>
-            <div className="hero-text">
-                <h2>Je suis Katia</h2>
-                <h3>
+        <div className="hero rounded-md min-h-16 bg-base-200">
+            <div className="hero-content flex-col lg:flex-row justify-center">
+                <img src={heroPic} className="max-w-xl rounded-lg shadow-2xl" />
+                <div>
+                <h1 className="text-5xl font-bold">Je suis Katia</h1>
+                <h4 className="text-2xl font-medium w-3/4 py-2">
                     Chief Happiness Officer
                     Facilitatrice en Bien-être au travail
                     et innovation collaborative
-                </h3>
-                <p>
-                    Hello les happy workers de demain, je vous souhaite la bienvenue ! 
+                </h4>
+                <p className="text-xl py-6 w-9/12 w-3/4">
+                     Hello les happy workers de demain, je vous souhaite la bienvenue ! 
                     <br />
                     <br />
                     Mademoiselle Happiness se positionne comme une entreprise du changement ! En effet, je souhaite partager avec vous un nouveau regard sur le monde du travail du 21e siècle.
@@ -34,6 +35,7 @@ const Hero = () => {
                     <br />
                     Et vous, quelles actions mettez-vous en place pour améliorer le bien-être de vos collaborateurs ?
                 </p>
+                </div>
             </div>
         </div>
     </section>
