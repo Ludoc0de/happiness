@@ -3,6 +3,7 @@ import Prestation from "../components/Prestation"
 import seminaire1 from "../images/Seminaire91.png"
 import seminaire2 from "../images/Seminaire21.png"
 import seminaire3 from "../images/Samuserauyoga.png"
+import sqvt from "../images/sqvt.png"
 
 const Main = () => {
   return (
@@ -52,9 +53,15 @@ const Main = () => {
                         *Qualité de Vie au Travail
                     `}
             />
-            {/* component 1*/}
-            <button>Consultez le programme</button>
-            <button>Rencontrons-nous...</button>
+
+            <Prestation 
+                firstTitle={`Nos événements QVT du mois de juin !`}
+                img={sqvt}      
+            />
+
+            <div className="flex flex-col-1 justify-center -mt-6">
+                <button className="btn btn-wide btn-outline btn-info">Consultez le programme</button>
+            </div>   
         </div>
         <form>
             
