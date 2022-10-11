@@ -24,7 +24,7 @@ const Main = () => {
                 Nous vous aidons à la mise en œuvre d'un plan d'actions bien-être annuel sur mesure favorisant l’épanouissement durable de vos salariés pour gagner en performance individuelle et collective. 
             `}            
         />
-        <div className="flex flex-row justify-center">
+        <div className="flex flex-row justify-between">
             <Offer 
                 firstTitle={`LES ATELIERS`}
                 secTitle={`QUALITE DE VIE AU TRAVAIL`}
@@ -59,7 +59,6 @@ const Main = () => {
                     *Qualité de Vie au Travail
                 `}
         />
-        {/*  */}
         <div className="flex flex-col justify-center">
             <div className="stats shadow">
                 <Stat 
@@ -90,16 +89,20 @@ const Main = () => {
             </div>
             <div className="stat-desc grid place-items-start">Source : étude menée par Harvard & le MIT, 2018</div>
         </div>
-        {/*  */}
 
         <Prestation 
             firstTitle={`Nos événements QVT du mois de juin !`}
             img={sqvt}      
         />
 
-        <div className="flex flex-col-1 justify-center -mt-6">
+        <div className="flex justify-center -mt-6 mb-6">
             <button className="btn btn-wide btn-outline btn-info">Consultez le programme</button>
-        </div>   
+        </div>
+
+        <div className="flex flex-col align-items-center mb-6">
+            <h2 className="text-5xl font-bold mb-6">Vous avez un projet ?</h2>
+            <button className="btn btn-wide btn-outline btn-info">Rencontrons-nous...</button>
+        </div>    
         <form>
             
         </form>
