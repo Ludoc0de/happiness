@@ -56,8 +56,8 @@ const Main = () => {
             secTitle={`S’intéresser au bien-être de vos collaborateurs, un gage de performance !`}
             text={`
                     Les études menées sur l’impact de la QVT* concluent à une forte corrélation entre la Qualité de Vie au Travail et la performance de l’entreprise.
-                    *Qualité de Vie au Travail
                 `}
+            info={`*Qualité de Vie au Travail`}
         />
         <div className="flex flex-col justify-center">
             <div className="stats shadow">
@@ -99,7 +99,7 @@ const Main = () => {
             <button className="btn btn-wide btn-outline btn-info">Consultez le programme</button>
         </div>
 
-        <div className="flex flex-col align-items-center mb-6">
+        <div className="flex flex-col items-center mb-6">
             <h2 className="text-5xl font-bold mb-6">Vous avez un projet ?</h2>
             <button className="btn btn-wide btn-outline btn-info">Rencontrons-nous...</button>
         </div>    
