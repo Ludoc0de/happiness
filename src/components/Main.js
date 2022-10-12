@@ -95,12 +95,12 @@ const Main = () => {
             img={sqvt}      
         />
 
-        <div className="flex justify-center -mt-6 mb-6">
+        <div className="flex justify-center mb-6">
             <button className="btn btn-wide btn-outline btn-info">Consultez le programme</button>
         </div>
 
-        <div className="flex flex-col items-center mb-6">
-            <h2 className="text-5xl font-bold mb-6">Vous avez un projet ?</h2>
+        <div className="flex flex-col items-center">
+            <h2 className="text-5xl font-bold mb-8">Vous avez un projet ?</h2>
             <button className="btn btn-wide btn-outline btn-info">Rencontrons-nous...</button>
         </div>    
         <form>
