@@ -6,12 +6,13 @@ const Prestation = (props) => {
                 <div className="max-w-3xl">
                     <h2 className="text-5xl font-bold">{props.firstTitle}</h2>
                     <h3 className="text-3xl py-6">{props.secTitle}</h3>
-                    <p className="text-lg py-6">
+                    <p className="text-lg pt-6">
                         {props.text}     
                     </p>
+                    <span className="stat-desc">{props.info}</span>
                 </div>
             </div>
-            <img className="w-screen rounded-md -mt-12" src={props.img} alt=""/>
+            <img className="w-screen rounded-md" src={props.img} alt=""/>
         </div>
   )
 }
