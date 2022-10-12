@@ -14,6 +14,6 @@ module.exports = {
     logs: true,
     rtl: false,
     prefix: "",
-    themes: ["cupcake"],
+    themes: ["lemonade"],
   },
 }
