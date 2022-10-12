@@ -8,7 +8,7 @@ const Hero = () => {
             <img className="hero-img w-screen rounded-md"src={heroImg} alt="logo"/>
             <h2 className="hero-title__center text-2xl my-12">Le bonheur au travail, vous avez tout à y gagner... <br />Et votre entreprise aussi !</h2>
         </div>
-        <div className="hero rounded-md min-h-16 bg-base-200">
+        <div className="hero rounded-md min-h-16 bg-base-200 bg-secondary">
             <div className="hero-content flex-col lg:flex-row justify-center">
                 <img src={heroPic} className="max-w-xl rounded-lg shadow-2xl" />
                 <div>

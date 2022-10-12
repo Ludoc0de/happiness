@@ -103,8 +103,41 @@ const Main = () => {
             <h2 className="text-5xl font-bold mb-8">Vous avez un projet ?</h2>
             <button className="btn btn-wide btn-outline btn-info">Rencontrons-nous...</button>
         </div>    
-        <form>
-            
+        <form className="grid grid-cols-2 justify-items-center px-96">
+            <div className="" >
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Prénom" aria-label="Full name" />
+                </div> 
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Société" aria-label="Full name" />
+                </div>
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Email" aria-label="Full name" />
+                </div> 
+            </div>
+            <div className="" >
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nom" aria-label="Full name" />
+                </div> 
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Fonction" aria-label="Full name" />
+                </div>
+                <div className="flex items-center border-b-2 border-primary py-2 mb-4 max-w-xs">
+                    <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Téléphone" aria-label="Full name" />
+                </div> 
+            </div>
+            <div className="flex justify-start w-full px-2">
+                <label className="label cursor-pointer">
+                    <input type="checkbox" checked className="checkbox checkbox-primary" />
+                    <span className="label-text">Remember me</span> 
+                </label>
+            </div>
+            {/* <button className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+                Sign Up
+            </button>
+            <button className="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
+                Cancel
+            </button> */}
         </form>
     </section>
   )
