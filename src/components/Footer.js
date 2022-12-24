@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <p>Footer</p>
+    <p className="flex flex-col items-center py-6">Mentions légales | Mademoiselle Happiness</p>
   )
 }
 
