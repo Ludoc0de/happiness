@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/happiness.github.io/static/css/main.ea1f2e15.css",
+    "main.js": "/happiness.github.io/static/js/main.79dd32ec.js",
+    "static/js/787.cb152bb7.chunk.js": "/happiness.github.io/static/js/787.cb152bb7.chunk.js",
+    "static/media/sqvt.png": "/happiness.github.io/static/media/sqvt.091d24d152e737a4838a.png",
+    "static/media/katia.png": "/happiness.github.io/static/media/katia.75139484d2f5209c8143.png",
+    "static/media/hero-img.png": "/happiness.github.io/static/media/hero-img.66c1cb696e482109a5cf.png",
+    "static/media/logo_v1.png": "/happiness.github.io/static/media/logo_v1.dac5962bdad0c8ffe87e.png",
+    "static/media/Seminaire21.png": "/happiness.github.io/static/media/Seminaire21.e77383a5ba684e8ca84a.png",
+    "static/media/Samuserauyoga.png": "/happiness.github.io/static/media/Samuserauyoga.ebabb214f1ac73610b6c.png",
+    "index.html": "/happiness.github.io/index.html",
+    "main.ea1f2e15.css.map": "/happiness.github.io/static/css/main.ea1f2e15.css.map",
+    "main.79dd32ec.js.map": "/happiness.github.io/static/js/main.79dd32ec.js.map",
+    "787.cb152bb7.chunk.js.map": "/happiness.github.io/static/js/787.cb152bb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1f2e15.css",
+    "static/js/main.79dd32ec.js"
+  ]
+}
